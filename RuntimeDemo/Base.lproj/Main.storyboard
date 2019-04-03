@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBh-FZ-MoV">
+                                <rect key="frame" x="0.0" y="60" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.6701652023921294" green="1" blue="0.53456883538020361" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BMA-gr-Rvi"/>
+                                </constraints>
+                                <state key="normal" title="获取所有变量"/>
+                                <connections>
+                                    <action selector="Func1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xsn-xo-PL9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gA-yj-nHN">
+                                <rect key="frame" x="0.0" y="140" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.97386755693676952" blue="0.76246880205590184" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Q8j-Jc-0ti"/>
+                                </constraints>
+                                <state key="normal" title="获取所有方法"/>
+                                <connections>
+                                    <action selector="Func2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTB-8Y-enh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOb-AL-kak">
+                                <rect key="frame" x="0.0" y="300" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.67933184604121233" green="1" blue="0.93342503271478183" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Z3f-KV-xc1"/>
+                                </constraints>
+                                <state key="normal" title="添加一个新属性"/>
+                                <connections>
+                                    <action selector="Func4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azr-TT-zNT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-nD-lMw">
+                                <rect key="frame" x="0.0" y="380" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.89087033807807825" green="1" blue="0.73061661067629724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uBU-dG-Uhf"/>
+                                </constraints>
+                                <state key="normal" title="添加一个新方法"/>
+                                <connections>
+                                    <action selector="Func5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBe-5p-Gmo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKL-1g-tIQ">
+                                <rect key="frame" x="0.0" y="460" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.54948879959525199" green="0.93368597445694168" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="giw-RR-cPE"/>
+                                </constraints>
+                                <state key="normal" title="交换两个方法"/>
+                                <connections>
+                                    <action selector="Func6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4w-qc-Dal"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIN-GE-H0d">
+                                <rect key="frame" x="0.0" y="220" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.99613474308005034" green="0.77039291004228772" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vt7-hy-IyA"/>
+                                </constraints>
+                                <state key="normal" title="改变私有变量name的值"/>
+                                <connections>
+                                    <action selector="Func3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TC-KS-HFy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qIN-GE-H0d" secondAttribute="trailing" id="4wO-Uf-NOO"/>
+                            <constraint firstItem="7gA-yj-nHN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5P2-zw-ZHR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JKL-1g-tIQ" secondAttribute="trailing" id="6c6-Ol-iWp"/>
+                            <constraint firstItem="eOb-AL-kak" firstAttribute="top" secondItem="qIN-GE-H0d" secondAttribute="bottom" constant="30" id="84e-md-9Sv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7gA-yj-nHN" secondAttribute="trailing" id="B0R-Kd-GrA"/>
+                            <constraint firstItem="qIN-GE-H0d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GFX-Dp-x5O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4fm-nD-lMw" secondAttribute="trailing" id="Jh7-8A-rc6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eOb-AL-kak" secondAttribute="trailing" id="KEe-jD-gY5"/>
+                            <constraint firstItem="JKL-1g-tIQ" firstAttribute="top" secondItem="4fm-nD-lMw" secondAttribute="bottom" constant="30" id="Kmp-aC-thr"/>
+                            <constraint firstItem="7gA-yj-nHN" firstAttribute="top" secondItem="fBh-FZ-MoV" secondAttribute="bottom" constant="30" id="LpU-WM-7XT"/>
+                            <constraint firstItem="4fm-nD-lMw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wd4-S9-nzL"/>
+                            <constraint firstItem="fBh-FZ-MoV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WwN-na-Dm1"/>
+                            <constraint firstItem="JKL-1g-tIQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aVB-Zg-Izf"/>
+                            <constraint firstItem="fBh-FZ-MoV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="dWb-Bw-FdL"/>
+                            <constraint firstItem="qIN-GE-H0d" firstAttribute="top" secondItem="7gA-yj-nHN" secondAttribute="bottom" constant="30" id="hNo-cl-CBw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fBh-FZ-MoV" secondAttribute="trailing" id="kHG-PO-bw5"/>
+                            <constraint firstItem="4fm-nD-lMw" firstAttribute="top" secondItem="eOb-AL-kak" secondAttribute="bottom" constant="30" id="l2J-4g-jld"/>
+                            <constraint firstItem="eOb-AL-kak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="plW-y2-iev"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106" y="203"/>
+        </scene>
+    </scenes>
+</document>
